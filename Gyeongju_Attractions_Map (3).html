@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_05e24c9f888e2e961488ddf4a22f20c4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_05e24c9f888e2e961488ddf4a22f20c4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_05e24c9f888e2e961488ddf4a22f20c4 = L.map(
+                "map_05e24c9f888e2e961488ddf4a22f20c4",
+                {
+                    center: [35.8463, 129.2845],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cd1c906c020b8d0fafae5c095aac709e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_05e24c9f888e2e961488ddf4a22f20c4);
+        
+    
+            var marker_31186ae2a249b3044d02bca6cd7edc70 = L.marker(
+                [35.7905, 129.3311],
+                {}
+            ).addTo(map_05e24c9f888e2e961488ddf4a22f20c4);
+        
+    
+            var icon_f518a476af32b513235bbf303277cfda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31186ae2a249b3044d02bca6cd7edc70.setIcon(icon_f518a476af32b513235bbf303277cfda);
+        
+    
+        var popup_a051b1bde4cfdcdd7bf6b3ec41cb5f87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96a9bf8b729dbe98d2199875cb565fa9 = $(`<div id="html_96a9bf8b729dbe98d2199875cb565fa9" style="width: 100.0%; height: 100.0%;">Bulguksa Temple</div>`)[0];
+            popup_a051b1bde4cfdcdd7bf6b3ec41cb5f87.setContent(html_96a9bf8b729dbe98d2199875cb565fa9);
+        
+
+        marker_31186ae2a249b3044d02bca6cd7edc70.bindPopup(popup_a051b1bde4cfdcdd7bf6b3ec41cb5f87)
+        ;
+
+        
+    
+    
+            var marker_428cc1f20d869c02581728a99742355b = L.marker(
+                [35.7941, 129.3492],
+                {}
+            ).addTo(map_05e24c9f888e2e961488ddf4a22f20c4);
+        
+    
+            var icon_1ec51bba85ccede6868e58677bce71e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_428cc1f20d869c02581728a99742355b.setIcon(icon_1ec51bba85ccede6868e58677bce71e2);
+        
+    
+        var popup_35457301e31f8a5b15f7ef971434531e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beef2edadd7c438e47239b67a96153e0 = $(`<div id="html_beef2edadd7c438e47239b67a96153e0" style="width: 100.0%; height: 100.0%;">Seokguram Grotto</div>`)[0];
+            popup_35457301e31f8a5b15f7ef971434531e.setContent(html_beef2edadd7c438e47239b67a96153e0);
+        
+
+        marker_428cc1f20d869c02581728a99742355b.bindPopup(popup_35457301e31f8a5b15f7ef971434531e)
+        ;
+
+        
+    
+    
+            var marker_639c815dbe9d7e78a2f3a5607ce36783 = L.marker(
+                [35.8345, 129.2186],
+                {}
+            ).addTo(map_05e24c9f888e2e961488ddf4a22f20c4);
+        
+    
+            var icon_af233c7bf86c15483f18dae4abdc45ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_639c815dbe9d7e78a2f3a5607ce36783.setIcon(icon_af233c7bf86c15483f18dae4abdc45ab);
+        
+    
+        var popup_40c38053d1847568291263a014efc2e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0af3d5e1033fbd510ca2185ddb1cffce = $(`<div id="html_0af3d5e1033fbd510ca2185ddb1cffce" style="width: 100.0%; height: 100.0%;">Cheomseongdae Observatory</div>`)[0];
+            popup_40c38053d1847568291263a014efc2e7.setContent(html_0af3d5e1033fbd510ca2185ddb1cffce);
+        
+
+        marker_639c815dbe9d7e78a2f3a5607ce36783.bindPopup(popup_40c38053d1847568291263a014efc2e7)
+        ;
+
+        
+    
+    
+            var marker_33aecdc9918e4168f644000d053b7e5d = L.marker(
+                [35.834, 129.2146],
+                {}
+            ).addTo(map_05e24c9f888e2e961488ddf4a22f20c4);
+        
+    
+            var icon_7e099469ff46bd4ad42f37f37f65952b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33aecdc9918e4168f644000d053b7e5d.setIcon(icon_7e099469ff46bd4ad42f37f37f65952b);
+        
+    
+        var popup_bbbb52cc4a9f278025cebd74312b29ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_125936ee32f5e730e03d6558c17c3a14 = $(`<div id="html_125936ee32f5e730e03d6558c17c3a14" style="width: 100.0%; height: 100.0%;">Daereungwon Tomb Complex</div>`)[0];
+            popup_bbbb52cc4a9f278025cebd74312b29ea.setContent(html_125936ee32f5e730e03d6558c17c3a14);
+        
+
+        marker_33aecdc9918e4168f644000d053b7e5d.bindPopup(popup_bbbb52cc4a9f278025cebd74312b29ea)
+        ;
+
+        
+    
+    
+            var marker_46c76afdf67629da225e8a7c02478f26 = L.marker(
+                [35.8345, 129.2243],
+                {}
+            ).addTo(map_05e24c9f888e2e961488ddf4a22f20c4);
+        
+    
+            var icon_41cf5d216fb2778fb8650572f93fa9ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46c76afdf67629da225e8a7c02478f26.setIcon(icon_41cf5d216fb2778fb8650572f93fa9ea);
+        
+    
+        var popup_8a8a5927aaeddc29bba1f629e9bec339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd9b910fac5a75923dfc970a32cd9bbe = $(`<div id="html_dd9b910fac5a75923dfc970a32cd9bbe" style="width: 100.0%; height: 100.0%;">Anapji Pond</div>`)[0];
+            popup_8a8a5927aaeddc29bba1f629e9bec339.setContent(html_dd9b910fac5a75923dfc970a32cd9bbe);
+        
+
+        marker_46c76afdf67629da225e8a7c02478f26.bindPopup(popup_8a8a5927aaeddc29bba1f629e9bec339)
+        ;
+
+        
+    
+    
+            var marker_b19d5673837d75999417a916e1483918 = L.marker(
+                [35.8392, 129.2077],
+                {}
+            ).addTo(map_05e24c9f888e2e961488ddf4a22f20c4);
+        
+    
+            var icon_190bd0dde73479b3d7e5f5bb49d8facc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b19d5673837d75999417a916e1483918.setIcon(icon_190bd0dde73479b3d7e5f5bb49d8facc);
+        
+    
+        var popup_af94c2136b940b471e62b7aff5a9ba94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c0237b8c478bd50bb00b63f56612584 = $(`<div id="html_0c0237b8c478bd50bb00b63f56612584" style="width: 100.0%; height: 100.0%;">Hwangridan-gil</div>`)[0];
+            popup_af94c2136b940b471e62b7aff5a9ba94.setContent(html_0c0237b8c478bd50bb00b63f56612584);
+        
+
+        marker_b19d5673837d75999417a916e1483918.bindPopup(popup_af94c2136b940b471e62b7aff5a9ba94)
+        ;
+
+        
+    
+    
+            var marker_b2fa7e3b43bf942ea6701b50de0ca17f = L.marker(
+                [35.8324, 129.2111],
+                {}
+            ).addTo(map_05e24c9f888e2e961488ddf4a22f20c4);
+        
+    
+            var icon_b1dceda7bbc35e2b3765c7b04a44e348 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2fa7e3b43bf942ea6701b50de0ca17f.setIcon(icon_b1dceda7bbc35e2b3765c7b04a44e348);
+        
+    
+        var popup_bcf543592f31a8e169a999a59cb17c76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a522ea0ab91d579aa9cc9962ae3af2d8 = $(`<div id="html_a522ea0ab91d579aa9cc9962ae3af2d8" style="width: 100.0%; height: 100.0%;">Woljeonggyo Bridge</div>`)[0];
+            popup_bcf543592f31a8e169a999a59cb17c76.setContent(html_a522ea0ab91d579aa9cc9962ae3af2d8);
+        
+
+        marker_b2fa7e3b43bf942ea6701b50de0ca17f.bindPopup(popup_bcf543592f31a8e169a999a59cb17c76)
+        ;
+
+        
+    
+</script>
+</html>
